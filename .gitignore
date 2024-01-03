@@ -1,0 +1,20 @@
+# ignore .venv files
+.venv/
+.idea
+.vscode
+
+# ignore local db changes
+db.sqlite3
+
+
+# ignore python compiled objects
+*.pyc
+
+# ignore node_modules
+nitoronlinetestportal/static/node_modules
+
+# ignore temp files
+**/.DS_Store
+.python-version
+.coverage
+nitoronlinetestportal/static/uploads/*
